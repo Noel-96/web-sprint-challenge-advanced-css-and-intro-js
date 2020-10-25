@@ -134,3 +134,22 @@ button:hover{
 .artist img{
     width:100%;
 }
+
+/* mobile devie styles */
+@media screen and (max-width: 1000px )
+{
+
+    
+    .artists-container{
+        align-items: center;
+        flex-direction: column;
+        width: 80%;
+    }
+    
+    .artist{
+        width:80%;
+        text-align:center;
+    }
+    
+
+}
